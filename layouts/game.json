@@ -31,7 +31,7 @@
     {
       "name": "PlayerMovementSpeed",
       "type": "number",
-      "value": 1.5
+      "value": 2
     }
   ],
   "instances": [
@@ -46,7 +46,7 @@
       "persistentUuid": "61465bcb-96e1-4006-99c9-fbda1f4bea29",
       "width": 140,
       "x": 320,
-      "y": 0,
+      "y": 29,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -62,8 +62,8 @@
       "name": "info",
       "persistentUuid": "a67db1ac-d74c-4836-bdbb-a549050c9c3b",
       "width": 120,
-      "x": 32,
-      "y": 0,
+      "x": 40,
+      "y": 32,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -97,7 +97,7 @@
       "persistentUuid": "abdc94f4-0098-4c56-8e63-065b5623ad92",
       "width": 416,
       "x": 0,
-      "y": -32,
+      "y": 0,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -114,7 +114,7 @@
       "persistentUuid": "9d3fdb67-5bd4-4088-b581-81a5482dce3a",
       "width": 32,
       "x": 416,
-      "y": -32,
+      "y": 0,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -131,7 +131,7 @@
       "persistentUuid": "8af811fb-9e06-4915-9a6a-8e38b406d564",
       "width": 416,
       "x": 0,
-      "y": 288,
+      "y": 320,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -148,7 +148,7 @@
       "persistentUuid": "490d6828-1e67-4c90-bd57-85b90e036d55",
       "width": 32,
       "x": 0,
-      "y": 0,
+      "y": 32,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -1181,6 +1181,35 @@
           "parameters": [
             "eat",
             "trail",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "CurrentSceneName()",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "eat",
+            "Border",
             "",
             "",
             ""

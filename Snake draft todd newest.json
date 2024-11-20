@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 218,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -23,8 +23,8 @@
     "name": "snake",
     "description": "",
     "author": "",
-    "windowWidth": 416,
-    "windowHeight": 320,
+    "windowWidth": 448,
+    "windowHeight": 352,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
