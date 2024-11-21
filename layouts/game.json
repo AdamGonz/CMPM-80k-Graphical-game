@@ -5,7 +5,7 @@
   "name": "Game",
   "r": 44,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "Game",
   "v": 44,
   "uiSettings": {
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.1683449236762866,
+    "zoomFactor": 0.8960796513572664,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -153,6 +153,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 352,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "NewSprite",
+      "persistentUuid": "81f0fb80-76e1-4dd5-a434-9df6871fe3d1",
+      "width": 626,
+      "x": 14,
+      "y": 0,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -173,11 +190,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Tomato_No Shadow.png",
+                  "image": "Collectable2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -194,115 +212,19 @@
                     [
                       {
                         "x": 4,
-                        "y": 3
+                        "y": 5
                       },
                       {
-                        "x": 28,
-                        "y": 3
+                        "x": 29,
+                        "y": 5
                       },
                       {
-                        "x": 28,
-                        "y": 29
-                      },
-                      {
-                        "x": 4,
-                        "y": 29
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "No Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Tomato_No Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 4,
-                        "y": 3
-                      },
-                      {
-                        "x": 28,
-                        "y": 3
-                      },
-                      {
-                        "x": 28,
-                        "y": 29
+                        "x": 29,
+                        "y": 22
                       },
                       {
                         "x": 4,
-                        "y": 29
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Tomato_Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 4,
-                        "y": 3
-                      },
-                      {
-                        "x": 28,
-                        "y": 3
-                      },
-                      {
-                        "x": 28,
-                        "y": 29
-                      },
-                      {
-                        "x": 4,
-                        "y": 29
+                        "y": 22
                       }
                     ]
                   ]
@@ -490,12 +412,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\PlayerEatArea.png",
+                  "image": "Google Wallet.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -511,20 +433,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
-                        "y": 4
+                        "x": 0,
+                        "y": 3
                       },
                       {
-                        "x": 28,
-                        "y": 4
+                        "x": 24,
+                        "y": 3
                       },
                       {
-                        "x": 28,
-                        "y": 28
+                        "x": 24,
+                        "y": 22
                       },
                       {
-                        "x": 4,
-                        "y": 28
+                        "x": 0,
+                        "y": 22
                       }
                     ]
                   ]
@@ -636,6 +558,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\factory-bg-pixabay-1080.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -661,6 +643,9 @@
       },
       {
         "objectName": "info"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -1197,6 +1182,18 @@
             "CurrentSceneName()",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "electricity-zap.mp3",
+            "",
+            "20",
+            ""
+          ]
         }
       ]
     },
@@ -1224,6 +1221,18 @@
           "parameters": [
             "",
             "CurrentSceneName()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "electricity-zap.mp3",
+            "",
+            "20",
             ""
           ]
         }
@@ -1325,6 +1334,39 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,

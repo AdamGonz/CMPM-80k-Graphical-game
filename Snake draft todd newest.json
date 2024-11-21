@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 218,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -418,6 +418,122 @@
         "metadata": "",
         "name": "assets\\Block.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Person5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Person5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Collectable2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Collectable2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Collectable3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Collectable2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Google Wallet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Google Wallet.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixelart App Icons/Small 24x24/6a459c88b2c471d03636f3ab4037da78285fe348931a2a79c3dd11a01a7eecbb_Google Wallet.png",
+          "name": "Google Wallet.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pexels-pixabay-236722.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "pexels-pixabay-236722.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pexels-pixabay-236722.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\pexels-pixabay-236722.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ground grass_damaged.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ground grass_damaged.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/ground/a897f301b8689c13ee3c142f560c7a34ae68a7308a4e5ebee07f31b4a5a11a8b_ground grass_damaged.png",
+          "name": "ground grass_damaged.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ground grass_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ground grass_normal.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/ground/b4d024bef7ea7256f042ef7baa704938de80cf9f047fba364c2401c74e571f50_ground grass_normal.png",
+          "name": "ground grass_normal.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ground grass_puddle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ground grass_puddle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/ground/2c8ccef3f3974f527893a0c8d3d7a699da2d944d04bb3c11126eb29e45cbd1e6_ground grass_puddle.png",
+          "name": "ground grass_puddle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/factory-bg-pixabay-1080.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\factory-bg-pixabay-1080.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "electricity-zap.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "electricity-zap.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
