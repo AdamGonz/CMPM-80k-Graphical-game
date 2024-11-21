@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8960796513572664,
+    "zoomFactor": 1.1302330907873306,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -95,7 +95,7 @@
       "layer": "UI",
       "name": "Border",
       "persistentUuid": "abdc94f4-0098-4c56-8e63-065b5623ad92",
-      "width": 416,
+      "width": 448,
       "x": 0,
       "y": 0,
       "zOrder": 13,
@@ -129,7 +129,7 @@
       "layer": "UI",
       "name": "Border",
       "persistentUuid": "8af811fb-9e06-4915-9a6a-8e38b406d564",
-      "width": 416,
+      "width": 448,
       "x": 0,
       "y": 320,
       "zOrder": 15,
@@ -141,14 +141,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 288,
+      "height": 352,
       "keepRatio": true,
       "layer": "UI",
       "name": "Border",
       "persistentUuid": "490d6828-1e67-4c90-bd57-85b90e036d55",
       "width": 32,
       "x": 0,
-      "y": 32,
+      "y": 0,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -670,8 +670,8 @@
           "parameters": [
             "",
             "Collectable",
-            "RandomInRange(0, ScreenWidth() - 32)",
-            "RandomInRange(0, ScreenHeight() - 32)",
+            "RandomInRange(0, ScreenWidth()-32)",
+            "RandomInRange(0, ScreenHeight()-32)",
             "\"\""
           ]
         },
@@ -828,6 +828,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -910,6 +911,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -992,6 +994,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1205,7 +1208,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "eat",
+            "head",
             "Border",
             "",
             "",
