@@ -26,7 +26,7 @@
     {
       "name": "Points",
       "type": "number",
-      "value": 5
+      "value": 0
     },
     {
       "name": "PlayerMovementSpeed",
@@ -42,7 +42,7 @@
       "height": 3,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
+      "name": "WASD_to_Move",
       "persistentUuid": "61465bcb-96e1-4006-99c9-fbda1f4bea29",
       "width": 140,
       "x": 320,
@@ -59,7 +59,7 @@
       "height": 34,
       "keepRatio": true,
       "layer": "",
-      "name": "info",
+      "name": "Points2",
       "persistentUuid": "a67db1ac-d74c-4836-bdbb-a549050c9c3b",
       "width": 120,
       "x": 40,
@@ -239,7 +239,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "WASD_to_Move",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -313,20 +313,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
-                        "y": 4
+                        "x": 6,
+                        "y": 6
                       },
                       {
-                        "x": 28,
-                        "y": 4
+                        "x": 24,
+                        "y": 6
                       },
                       {
-                        "x": 28,
-                        "y": 28
+                        "x": 24,
+                        "y": 24
                       },
                       {
-                        "x": 4,
-                        "y": 28
+                        "x": 6,
+                        "y": 24
                       }
                     ]
                   ]
@@ -433,20 +433,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 3
+                        "x": 4,
+                        "y": 4
                       },
                       {
-                        "x": 24,
-                        "y": 3
+                        "x": 20,
+                        "y": 4
                       },
                       {
-                        "x": 24,
-                        "y": 22
+                        "x": 20,
+                        "y": 20
                       },
                       {
-                        "x": 0,
-                        "y": 22
+                        "x": 4,
+                        "y": 20
                       }
                     ]
                   ]
@@ -461,7 +461,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "info",
+      "name": "Points2",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -500,7 +500,7 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Border",
       "type": "Sprite",
@@ -535,20 +535,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 4,
+                        "y": 4
                       },
                       {
-                        "x": 32,
-                        "y": 0
+                        "x": 28,
+                        "y": 4
                       },
                       {
-                        "x": 32,
-                        "y": 32
+                        "x": 28,
+                        "y": 28
                       },
                       {
-                        "x": 0,
-                        "y": 32
+                        "x": 4,
+                        "y": 28
                       }
                     ]
                   ]
@@ -639,10 +639,10 @@
         "objectName": "Collectable"
       },
       {
-        "objectName": "NewText"
+        "objectName": "WASD_to_Move"
       },
       {
-        "objectName": "info"
+        "objectName": "Points2"
       },
       {
         "objectName": "NewSprite"
@@ -1324,7 +1324,7 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "info",
+            "Points2",
             "Text",
             "=",
             "\"Points: \" + VariableString(Points)"
