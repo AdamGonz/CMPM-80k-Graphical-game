@@ -39,14 +39,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 3,
+      "height": 32,
       "keepRatio": true,
       "layer": "",
       "name": "WASD_to_Move",
       "persistentUuid": "61465bcb-96e1-4006-99c9-fbda1f4bea29",
       "width": 140,
-      "x": 320,
-      "y": 29,
+      "x": 340,
+      "y": 0,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -62,8 +62,8 @@
       "name": "Points2",
       "persistentUuid": "a67db1ac-d74c-4836-bdbb-a549050c9c3b",
       "width": 120,
-      "x": 40,
-      "y": 32,
+      "x": 8,
+      "y": -2,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -167,6 +167,56 @@
       "x": -18,
       "y": 0,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Work",
+      "persistentUuid": "9ec12417-ec8f-4a8e-a6e9-2ecc88a56cb1",
+      "width": 32,
+      "x": -96,
+      "y": 32,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 36,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "WorkNoti",
+      "persistentUuid": "15722289-e9ca-467b-808f-4097e2d9537d",
+      "width": 352,
+      "x": 32,
+      "y": 160,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "NewText",
+      "persistentUuid": "c2e6daeb-1695-4472-bcbb-dccbaea2d86b",
+      "width": 0,
+      "x": 96,
+      "y": 192,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -618,6 +668,161 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Work",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Work",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 19
+                      },
+                      {
+                        "x": 59,
+                        "y": 19
+                      },
+                      {
+                        "x": 59,
+                        "y": 58
+                      },
+                      {
+                        "x": 7,
+                        "y": 58
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "WorkNoti",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "\"FINISH YOUR WORK!\"\n",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 10,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "\"FINISH YOUR WORK!\"\n",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 10,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": true,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "(Finish work by collecting the paper)",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 15,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "(Finish work by collecting the paper)",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 15,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -639,6 +844,9 @@
         "objectName": "Collectable"
       },
       {
+        "objectName": "Work"
+      },
+      {
         "objectName": "WASD_to_Move"
       },
       {
@@ -646,6 +854,12 @@
       },
       {
         "objectName": "NewSprite"
+      },
+      {
+        "objectName": "WorkNoti"
+      },
+      {
+        "objectName": "NewText"
       }
     ]
   },
@@ -719,6 +933,26 @@
           "parameters": [
             "head",
             "\"MoveTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"WorkTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "WorkNoti",
+            "Opacity",
+            "=",
+            "0"
           ]
         }
       ]
@@ -1334,6 +1568,79 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"WorkTimer\"",
+            ">=",
+            "5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Work",
+            "=",
+            "RandomInRange(0, ScreenWidth() - 32)",
+            "=",
+            "RandomInRange(0, ScreenHeight() - 32)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"WorkTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"WorkTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "WorkNoti",
+            "Opacity",
+            "=",
+            "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddTextObjectCharacterSizeTween2"
+          },
+          "parameters": [
+            "WorkNoti",
+            "Tween",
+            "\"Size\"",
+            "30",
+            "\"linear\"",
+            "1",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -1460,6 +1767,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }
