@@ -333,7 +333,23 @@
       "name": "head",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "LookingDown",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "LookingUp",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Looking_Right",
+          "type": "boolean",
+          "value": true
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -954,6 +970,17 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "NewText",
+            "Opacity",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -978,7 +1005,29 @@
           "parameters": [
             "head",
             "=",
-            "270"
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "head",
+            "LookingUp",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "head",
+            "LookingDown",
+            "False",
+            ""
           ]
         }
       ]
@@ -1004,7 +1053,29 @@
           "parameters": [
             "head",
             "=",
-            "90"
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "head",
+            "LookingDown",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "head",
+            "LookingUp",
+            "False",
+            ""
           ]
         }
       ]
@@ -1030,7 +1101,28 @@
           "parameters": [
             "head",
             "=",
-            "180"
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "head",
+            "Flippable",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "head",
+            "Looking_Right",
+            "False",
+            ""
           ]
         }
       ]
@@ -1058,6 +1150,17 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "head",
+            "Looking_Right",
+            "True",
+            ""
+          ]
         }
       ]
     },
@@ -1072,7 +1175,18 @@
           "parameters": [
             "head",
             "=",
-            "270"
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "head",
+            "LookingUp",
+            "True",
+            ""
           ]
         }
       ],
@@ -1155,7 +1269,18 @@
           "parameters": [
             "head",
             "=",
-            "90"
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "head",
+            "LookingUp",
+            "True",
+            ""
           ]
         }
       ],
@@ -1639,8 +1764,45 @@
             "1",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "NewText",
+            "Opacity",
+            "=",
+            "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"WorkEventTimer\""
+          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"WorkEventTimer\"",
+            ">=",
+            "5"
+          ]
+        }
+      ],
+      "actions": []
     }
   ],
   "layers": [
