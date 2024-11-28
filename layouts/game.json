@@ -9,7 +9,7 @@
   "title": "Game",
   "v": 44,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,7 +17,7 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
+    "snap": true,
     "zoomFactor": 1.5070203332162484,
     "windowMask": true
   },
@@ -167,23 +167,6 @@
       "x": -18,
       "y": 0,
       "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Work",
-      "persistentUuid": "9ec12417-ec8f-4a8e-a6e9-2ecc88a56cb1",
-      "width": 32,
-      "x": -96,
-      "y": 32,
-      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -348,6 +331,23 @@
       "x": -287,
       "y": 170,
       "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "work",
+      "persistentUuid": "0888f1d5-23e1-4bb6-b2f1-7e34d6de59e4",
+      "width": 29,
+      "x": -93,
+      "y": 2,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -822,73 +822,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Work",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "collected",
-          "type": "boolean",
-          "value": false
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Work",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Work",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 2
-                      },
-                      {
-                        "x": 32,
-                        "y": 2
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      },
-                      {
-                        "x": 2,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "bold": true,
       "italic": false,
@@ -1342,6 +1275,211 @@
         "characterSize": 14,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Work1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "collected",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Work",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Work",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 32,
+                        "y": 2
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 2,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 32,
+                        "y": 2
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 2,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 32,
+                        "y": 2
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 2,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "work",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "collected",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 19
+                      },
+                      {
+                        "x": 59,
+                        "y": 19
+                      },
+                      {
+                        "x": 59,
+                        "y": 58
+                      },
+                      {
+                        "x": 7,
+                        "y": 58
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1366,7 +1504,10 @@
         "objectName": "Collectable"
       },
       {
-        "objectName": "Work"
+        "objectName": "Work1"
+      },
+      {
+        "objectName": "work"
       },
       {
         "objectName": "TaskMissed"
@@ -2807,7 +2948,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "Work",
+            "work",
             "Opacity",
             "=",
             "255"
@@ -2818,7 +2959,7 @@
             "value": "MettreXY"
           },
           "parameters": [
-            "Work",
+            "work",
             "=",
             "RandomInRange(0, ScreenWidth() - 32)",
             "=",
@@ -2998,7 +3139,7 @@
             "value": "BooleanObjectVariable"
           },
           "parameters": [
-            "Work",
+            "work",
             "collected",
             "True",
             "0"
@@ -3047,7 +3188,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "Work",
+            "Work1",
             "Opacity",
             "=",
             "0"
@@ -3069,7 +3210,7 @@
             "value": "SetBooleanObjectVariable"
           },
           "parameters": [
-            "Work",
+            "work",
             "collected",
             "False",
             ""
@@ -3096,7 +3237,7 @@
             "value": "BooleanObjectVariable"
           },
           "parameters": [
-            "Work",
+            "work",
             "collected",
             "False",
             "0"
@@ -3145,7 +3286,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "Work",
+            "work",
             "Opacity",
             "=",
             "0"
@@ -3183,7 +3324,7 @@
           },
           "parameters": [
             "eat",
-            "Work",
+            "work",
             "",
             "",
             ""
@@ -3194,7 +3335,7 @@
             "value": "OpacityCapability::OpacityBehavior::Value"
           },
           "parameters": [
-            "Work",
+            "work",
             "Opacity",
             "=",
             "255"
@@ -3219,7 +3360,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "Work",
+            "work",
             "Opacity",
             "=",
             "0"
@@ -3230,7 +3371,7 @@
             "value": "SetBooleanObjectVariable"
           },
           "parameters": [
-            "Work",
+            "work",
             "collected",
             "True",
             ""
