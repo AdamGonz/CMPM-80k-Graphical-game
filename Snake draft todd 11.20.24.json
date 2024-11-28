@@ -598,6 +598,15 @@
         "name": "Game Open3.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite5.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
