@@ -544,6 +544,60 @@
         "name": "NewSprite5",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Though_Bubble2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Though_Bubble2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "high-rise-buildings-office-area-600nw-2474260777.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "high-rise-buildings-office-area-600nw-2474260777.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game Open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game Open.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game Open2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game Open2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game Open3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game Open3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -585,6 +639,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/startscreen"
     }
   ],
   "externalEvents": [],
