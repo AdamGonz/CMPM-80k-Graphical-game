@@ -781,7 +781,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite5",
+                  "image": "Work",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -797,20 +797,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 7,
-                        "y": 19
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 59,
-                        "y": 19
+                        "x": 32,
+                        "y": 2
                       },
                       {
-                        "x": 59,
-                        "y": 58
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 7,
-                        "y": 58
+                        "x": 2,
+                        "y": 32
                       }
                     ]
                   ]

@@ -563,6 +563,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Work.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Work",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
